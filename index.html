@@ -21,11 +21,11 @@
   </head>
   <body>
 
+    <!-- Навігація -->
     <div class="container">
-
         <div class="row">
-            <div class="navbar navbar-default">
-                <div class="container-fluid">
+            <div class="navbar">
+                <div class="container-fluid  navbar-box">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
                         <span class="sr-only">Toggle navigation</span>
@@ -33,12 +33,29 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         </button>
-                        <a href="#" class="navbar-brand">minimø</a>
+                        <a href="#" class="navbar-brand logo">minimø</a>
                     </div>
                     <div class="collapse navbar-collapse" id="responsive-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">lifestyle</a></li>
-                            <li><a href="#">photodiary</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">lifestyle</a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 2</a></li>
+                                    <li><a href="#">Link 3</a></li>
+                                    <li><a href="#">Link 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">photodiary</a>
+                                    <ul class="dropdown-menu">
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 2</a></li>
+                                    <li><a href="#">Link 3</a></li>
+                                    <li><a href="#">Link 4</a></li>
+                                    <li><a href="#">Link 5</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">music</a></li>
                             <li><a href="#">travel</a></li>
                         </ul>
@@ -47,61 +64,114 @@
             </div>
         </div>
 
+        <!-- Головна новина -->
         <div class="row">
-            <div class="col-md-12"><a href="#"><img src="images/homepagemain.jpg" class="img-responsive center-block" alt="Main article"></a></div>
+            <div class="col-md-12 main-article"><a href="#"><img src="images/homepagemain.jpg" class="img-responsive center-block" alt="Main article"></a></div>
         </div>
 
+        <!-- Новини -->
+        <div class="row content-box">
+            <div class="col-sm-6 col-md-6 article"><a href="#"><img src="images/homepage1.jpg" class="img-responsive center-block" alt="Article"></a>
+                <span><a href="">lifestyle</a></span>
+                <h1><a href="#">More than just a music festival</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            </div>
+            <div class="col-sm-6 col-md-6 article"><a href="#"><img src="images/homepage2.jpg" class="img-responsive center-block" alt="Article"></a>
+                <span><a href="">lifestyle</a></span>
+                <h1><a href="#">Life tastes better with coffee</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+            </div>
+            <div class="col-sm-6 col-md-6 article"><a href="#"><img src="images/homepage3.jpg" class="img-responsive center-block" alt="Article"></a>
+                <span><a href="">photodiary</a></span>
+                <h1><a href="#">American dream</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+            </div>
+            <div class="col-sm-6 col-md-6 article"><a href="#"><img src="images/homepage4.jpg" class="img-responsive center-block" alt="Article"></a>
+                <span><a href="">photodiary</a></span>
+                <h1><a href="#">A day exploring the Alps</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+            </div>
+            <div class="col-sm-6 col-md-6 article"><a href="#"><img src="images/homepage5.jpg" class="img-responsive center-block" alt="Article"></a>
+                <span><a href="">lifestyle</a></span>
+                <h1><a href="#">Top 10 song for running</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+            </div>
+            <div class="col-sm-6 col-md-6 article"><a href="#"><img src="images/homepage6.jpg" class="img-responsive center-block" alt="Article"></a>
+                <span><a href="">lifestyle</a></span>
+                <h1><a href="#">Cold winter days</a></h1>
+                <p>Loremipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+            </div>
+        </div>  
+
+        <!-- Кнопка Load More -->        
         <div class="row">
-            <div class="col-md-6">
-                <a href="#"><img src="images/homepage1.jpg" class="img-responsive center-block" alt="Article"></a>
-                <a href="">lifestyle</a>
-                <h1>More than just a music festival</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
-            </div>
-            <div class="col-md-6"><a href="#"><img src="images/homepage2.jpg" class="img-responsive center-block" alt="Article"></a>
-                <a href="">lifestyle</a>
-                <h1>More than just a music festival</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
-            </div>
-            <div class="col-md-6"><a href="#"><img src="images/homepage3.jpg" class="img-responsive center-block" alt="Article"></a>
-                <a href="">lifestyle</a>
-                <h1>More than just a music festival</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
-            </div>
-            <div class="col-md-6"><a href="#"><img src="images/homepage4.jpg" class="img-responsive center-block" alt="Article"></a>
-                <a href="">lifestyle</a>
-                <h1>More than just a music festival</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
-            </div>
-            <div class="col-md-6"><a href="#"><img src="images/homepage5.jpg" class="img-responsive center-block" alt="Article"></a>
-                <a href="">lifestyle</a>
-                <h1>More than just a music festival</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
-            </div>
-            <div class="col-md-6"><a href="#"><img src="images/homepage6.jpg" class="img-responsive center-block" alt="Article"></a>
-                <a href="">lifestyle</a>
-                <h1>More than just a music festival</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
-            </div>
-
-            <div class="row">
-                <button class="btn btn-default center-block" type="button">Load more</button>    
-            </div>
-
+            <button class="center-block load-more" type="button">Load more</button>
         </div>
+
     </div>
+
+    <!-- Підвал --> 
     <div class="footer">
-        <div class="container">
+        <div class="container footer content-box">
             <div class="row">
-                <div class="row">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
+                <div class="col-md-8 bottom-menus">
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <h1>our stores</h1>
+                        <ul>
+                            <li><a href="#">New York</a></li>
+                            <li><a href="#">London SF</a></li>
+                            <li><a href="#">Cockfosters BP</a></li>
+                            <li><a href="#">Los Angeles</a></li>
+                            <li><a href="#">Chicago</a></li>
+                            <li><a href="#">Las Vegas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <h1>our stores</h1>
+                        <ul>
+                            <li><a href="#">New York</a></li>
+                            <li><a href="#">London SF</a></li>
+                            <li><a href="#">Cockfosters BP</a></li>
+                            <li><a href="#">Los Angeles</a></li>
+                            <li><a href="#">Chicago</a></li>
+                            <li><a href="#">Las Vegas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <h1>our stores</h1>
+                        <ul>
+                            <li><a href="#">New York</a></li>
+                            <li><a href="#">London SF</a></li>
+                            <li><a href="#">Cockfosters BP</a></li>
+                            <li><a href="#">Los Angeles</a></li>
+                            <li><a href="#">Chicago</a></li>
+                            <li><a href="#">Las Vegas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <h1>our stores</h1>
+                        <ul>
+                            <li><a href="#">New York</a></li>
+                            <li><a href="#">London SF</a></li>
+                            <li><a href="#">Cockfosters BP</a></li>
+                            <li><a href="#">Los Angeles</a></li>
+                            <li><a href="#">Chicago</a></li>
+                            <li><a href="#">Las Vegas</a></li>
+                        </ul>
+                    </div>
+                 </div>
+                <div class="col-md-4">
+                    <div class="col-md-12 about">
+                        <h1 class="logo">minimø</h1>
+                        <p>Parturient tincidunt  habitant mi.A morbi sociosqu parturient eros et aptent habitasse parturient proin parturient morbi.</p>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12"></div>
-                </div>
+            </div>
+
+            <!-- Копірайт і соц. мережі --> 
+            <div class="row content-box">
+                <div class="col-sm-9 col-md-9 credits"><p>2015 Created by Monsters studio. Premium e-commerce solutions.</p></div>
+                <div class="col-sm-3 col-md-3 follow"><p>Follow <a href="#"><img src="images/facebook.png" alt="facebook"></a> <a href="#"><img src="images/twitter.png" alt="twitter"></a> <a href="#"><img src="images/instagram.png" alt="instagram"></a></p></div>
             </div>
         </div>
     </div>

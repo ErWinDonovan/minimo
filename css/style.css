@@ -1,5 +1,228 @@
 @import url(fonts.css);
 
+body {
+	font: 14px 'playfair_displayregular', Arial, sans-serif;	
+	color: #626262;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+a {
+	color: #626262;
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: #FF0B00;
+	text-decoration: none;
+}
+
+/* Логотип */
+
+.logo {
+	font: 30px 'Inconsolata', Arial, serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #000; 
+	line-height: 30px;
+	padding: 15px 15px;
+}
+
+/* Навігація */
+
+.nav>li {
+	margin-left: 75px;
+	position: relative;
+}
+
+.nav li:first-child {
+	margin-left: 0px;
+}
+
+.nav li a {
+	color: #626262;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.2s;
+}
+
+.nav li a:hover {
+	color: #FF0B00;
+	background: none;
+
+}
+
+.nav li a:focus {
+	background: none;
+
+}
+
+.navbar-right  .dropdown-menu {
+	right: auto;
+}
+
+.icon-bar {
+	background-color: #888;
+}
+
+.navbar-box {
+	padding: 0 45px;
+	margin: 20px auto 0 auto;
+}
+
+/* Головна новина */
+.main-article {
+	margin-bottom: 20px;
+}
+
+/* Новини */
+.article {
+	margin: 40px 0;
+}
+
+.article p {
+	margin: 30px 0;
+}
+
+.article span a {
+	color: #b4ad9e;
+	padding: 5px 0;
+	margin: 20px 0;
+	display: block;
+	font: 14px 'ubuntulight', Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.article span a:hover {
+	color: #FF0B00;
+}
+
+.article:nth-child(odd) {
+	clear:both;
+}
+
+/* Кнопка Load More */
+
+.load-more {
+	margin-top: 30px;
+	margin-bottom: 70px;
+	border: 1px solid;
+	padding: 15px 25px;
+	border-radius: 0px;
+	transition: color 0.2s;
+	font-size: 1.3em;
+	background: 0;
+}
+
+.load-more:hover {
+	color: #FF0B00;
+	border: 1px solid #FF0B00;
+	background: 0;
+}
+
+/* Підвал */
+
 .footer {
 	background: #f0f0f0;
+}
+
+/* Нижні меню */
+
+.bottom-menus {
+	text-align: center;
+	list-style: none;
+
+}
+
+.bottom-menus h1 {
+	font: 18px 'Lora', Arial, serif;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.bottom-menus li a {
+	display: block; 
+	font: italic 14px 'Lora', Arial, serif;	
+	margin: 3px 0;
+	padding: 5px 0px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+/* Про сайт */
+
+.about {
+	font: 12px 'Lora', Arial, serif;
+   line-height: 20px;
+}
+
+.about .logo {
+	font: 50px 'Inconsolata', Arial, serif;
+	letter-spacing: 12px;
+	padding: 0;
+}
+
+/* Копірайт і соц. мережі */
+
+.credits {
+	margin: 30px auto;
+	color: #000;
+	font: 14px 'Lora', Arial, serif;
+}
+
+.follow {
+	margin: 30px auto;
+	color: #000;
+	vertical-align: baseline;
+}
+
+.follow img {
+	margin-left: 10px;
+	vertical-align: baseline;
+}
+
+
+/* Ширина контенту новин та підвалу */
+.content-box {
+	width: 930px;
+	margin: 0 auto;
+}
+
+
+ @media screen and (max-width: 992px) {
+
+.content-box {
+	width: 100%;
+	margin: 0;
+}
+
+.nav li {
+	margin-left: 35px;
+}
+
+.nav li:first-child {
+	margin-left: 0px;
+}
+
+.about {
+	text-align: center;
+}
+
+ @media screen and (max-width: 767px) {
+
+.nav li {
+	margin-left: 0px;
+}
+
+.credits, .follow {
+	text-align: center;
+}
 }
