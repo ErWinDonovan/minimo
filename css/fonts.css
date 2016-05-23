@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Lora:400italic,400);
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu/ubuntu-light.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntu-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('../fonts/playfairdisplay/playfairdisplay-regular.woff2') format('woff2'),
+         url('../fonts/playfairdisplay/playfairdisplay-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
