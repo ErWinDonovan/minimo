@@ -27,12 +27,12 @@ a:hover {
 /* Логотип */
 
 .logo {
-	font: 30px 'Inconsolata', Arial, serif;
-	text-transform: uppercase;
-	letter-spacing: 4px;
 	color: #000; 
+	font: 30px 'Inconsolata', Arial, serif;
+	letter-spacing: 4px;
 	line-height: 30px;
 	padding: 15px 15px;
+	text-transform: uppercase;
 }
 
 /* Навігація */
@@ -94,10 +94,10 @@ a:hover {
 
 .article span a {
 	color: #b4ad9e;
-	padding: 5px 0;
-	margin: 20px 0;
 	display: block;
 	font: 14px 'ubuntulight', Arial, sans-serif;
+	margin: 20px 0;
+	padding: 5px 0;
 	text-transform: uppercase;
 }
 
@@ -112,14 +112,14 @@ a:hover {
 /* Кнопка Load More */
 
 .load-more {
-	margin-top: 30px;
-	margin-bottom: 70px;
-	border: 1px solid;
-	padding: 15px 25px;
-	border-radius: 0px;
-	transition: color 0.2s;
-	font-size: 1.3em;
 	background: 0;
+	border-radius: 0px;
+	border: 1px solid;
+	font-size: 1.3em;
+	margin-bottom: 70px;
+	margin-top: 30px;
+	padding: 15px 25px;
+	transition: color 0.2s;
 }
 
 .load-more:hover {
@@ -173,14 +173,14 @@ a:hover {
 /* Копірайт і соц. мережі */
 
 .credits {
-	margin: 30px auto;
 	color: #000;
 	font: 14px 'Lora', Arial, serif;
+	margin: 30px auto;
 }
 
 .follow {
-	margin: 30px auto;
 	color: #000;
+	margin: 30px auto;
 	vertical-align: baseline;
 }
 
