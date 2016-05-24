@@ -138,7 +138,6 @@ a:hover {
 
 .bottom-menus {
 	text-align: center;
-	list-style: none;
 
 }
 
@@ -161,7 +160,7 @@ a:hover {
 
 .about {
 	font: 12px 'Lora', Arial, serif;
-   line-height: 20px;
+	line-height: 20px;
 }
 
 .about .logo {
